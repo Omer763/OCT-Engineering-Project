@@ -49,11 +49,6 @@ Each `test` directory contains a dedicated Jupyter notebook running a Julia kern
 
 ## 🚀 Setup and Usage
 
-### Prerequisites
-*   **Python 3.x:** `numpy`, `scipy`, `imageio`, `h5py`, `matplotlib`.
-*   **Julia 1.12+:** `FFTW`, `JLD`, `PyPlot`, `ProgressMeter`.
-*   **Hardware:** Thorlabs Scientific Camera, Kinesis TDC001 Controller.
-
 ### Execution Workflow
 1.  **Acquisition:** Configure the target test directory and angular range in `shooting.py`. Run the script three separate times, changing the `MODE` constant to capture Waveguide, Background, and Dark images.
 2.  **Preprocessing:** Ensure `TEST_NUMBER` in `preprocessing.py` matches your target directory. Run the script to generate the `tomogram_guide.jld` file.
