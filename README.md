@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Tomographic Refractive Index Profiling of FLDW Waveguides
 
 This repository contains the software ecosystem for automating data acquisition and performing refractive index reconstruction of femtosecond laser direct written (FLDW) waveguides. The system is split into a Python-based hardware control and preprocessing pipeline, and a Julia-based mathematical reconstruction backend.
@@ -126,4 +125,3 @@ Each `test` directory contains a dedicated Jupyter notebook running a Julia kern
 
 ## 📚 References
 *   Barré, N., Shivaraman, R., Ackermann, L., Moser, S., Schmidt, M., Salter, P., Booth, M., & Jesacher, A. (2021). *Tomographic refractive index profiling of direct laser written waveguides.* Optics Express, 29(22), 35414-35425.
->>>>>>> a493ea8 (Initial commit: Add OCT Project structure and scripts)
